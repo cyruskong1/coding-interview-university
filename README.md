@@ -1,29 +1,10 @@
 # Coding Interview University
 
-> I originally created this as a short to-do list of study topics for becoming a software engineer,
-> but it grew to the large list you see today. After going through this study plan, [I got hired
-> as a Software Development Engineer at Amazon](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
-> You probably won't have to study as much as I did. Anyway, everything you need is here.
->
-> The items listed here will prepare you well for an interview at just about any software company,
-> including the giants: Amazon, Facebook, Google or Microsoft.
->
-> *Best of luck to you!*
-
 ## What is it?
 
 This is my multi-month study plan for going from web developer (self-taught, no CS degree) to software engineer for a large company.
 
 ![Coding at the whiteboard - from HBO's Silicon Valley](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
-
-This is meant for **new software engineers** or those switching from
-software/web development to software engineering (where computer science knowledge is required). If you have
-many years of experience and are claiming many years of software engineering experience, expect a harder interview.
-
-If you have many years of software/web development experience, note that large software companies like Google, Amazon,
-Facebook and Microsoft view software engineering as different from software/web development, and they require computer science knowledge.
-
-If you want to be a reliability engineer or operations engineer, study more from the optional list (networking, security).
 
 ---
 
@@ -273,13 +254,6 @@ This is a shorter list than what I used. This is abbreviated to save you time.
 
 <details>
 
-### Language Specific
-
-**You need to choose a language for the interview (see above).** 
-
-If you read though one of these, you should have all the data structures and algorithms knowledge you'll need to start doing coding problems.
-**You can skip all the video lectures in this project**, unless you'd like a review.
-
 [Additional language-specific resources here.](programming-language-resources.md)
 
 - [ ] [Programming Pearls](http://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880)
@@ -293,11 +267,6 @@ If you read though one of these, you should have all the data structures and alg
 </details>
 
 ## Before you Get Started
-
-This list grew over many months, and yes, it kind of got out of hand.
-
-Here are some mistakes I made so you'll have a better experience.
-
 ### 1. You Won't Remember it All
 
 I watched hours of videos and took copious notes, and months later there was much I didn't remember. I spent 3 days going
