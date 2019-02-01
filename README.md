@@ -502,8 +502,6 @@ Write code on a whiteboard or paper, not a computer. Test with some sample input
 
 </details>
 
-## More Knowledge
-
 <details>
 <summary>More Knowledge</summary>
 
