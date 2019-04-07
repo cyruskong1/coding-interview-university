@@ -1,22 +1,30 @@
-// find largest consecutive sum of x numbers
-const findLargestConsecutiveSum = (array) => {
-	let currentTotal = 0;
-	let largestTotal = 0;
+const MaxRangeSum = (array) => {
+	let currentTotal = array[0];
+	let largestTotal = array[0];
 
-	for(let i = 0; i < array.length; i++) {
-		currentTotal += array[i]
+	for(let i = 1; i < array.length; i++) {
+		if(currentTotal + array[i] > array[i]) {
+			currentTotal += array[i];
+		} else {
+			currentTotal = array[i];
+		}
+		
 		if(largestTotal < currentTotal) {
 			largestTotal = currentTotal;
 		}
-		else if(largestTotal > currentTotal) {
-			currentTotal = 0;
-		}
-		else if(array[i] < 0) {
-			currentTotal = 0;
-		}
+		
 	}
 	return largestTotal;
 }
 
-// console.log(findLargestConsecutiveSum([1,2,3,4]))
-// console.log(findLargestConsecutiveSum([9,10, -1, 1,2,3])) 
+// for testing
+const AssertEqual = (expected, actual) => {
+	if(expected === actual) {
+		return "function passed"
+	} else {
+		return "expected " + expected + " but received " + actual + " instead"
+	}
+}
+
+console.log(AssertEqual(16,MaxRangeSum([7, -3, -10, 4, 2, 8, -2, 4, -5, -2])))
+console.log(AssertEqual(7,MaxRangeSum([-2,-3, 4, -1,-2,1,5,-3])))

@@ -77,5 +77,6 @@ var matrix = [
 	[0,0,0,0,0]
 ]
 
-console.log(hitPrize(matrix, 1, 3))
+//console.log(hitPrize(matrix, 1, 3))
 
+console.log(14%20)

@@ -24,11 +24,13 @@ towerBuilder(6):
 function towerBuilder(nFloors) {
   // build here
   var tower = [];
-  for(var i = 0; i < nFloors; i++) {
-  	var floor = "*".repeat(i + 1);
+  var numSpaces = 0;
+  for(var i = nFloors; i > 0; --i) {
+  	var floor = " ".repeat(numSpaces) + "*".repeat(i) + " ".repeat(numSpaces);
   	tower.push(floor);
+    numSpaces++;
   }
-  return tower
+  return tower.reverse();
 }
 
-console.log(towerBuilder(4))
+console.log(towerBuilder(3))
